@@ -41,7 +41,7 @@ def first_wa(array)
   first_wa = nil
   array.each do |element|
     if element.match(/wa/)
-      first_wa = element 
+      first_wa = element
       break
     end
   end
@@ -51,7 +51,7 @@ end
 def find_cool(array)
   container = []
   array.each do |element|
-    container << element if element[:temperature] == "cool" 
+    container << element if element[:temperature] == "cool"
   end
   container
 end
